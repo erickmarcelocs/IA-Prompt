@@ -1,0 +1,168 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>30 prompts para criar vídeos curtos com IA · Velar Web</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&family=Sora:wght@300;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#EEF0FA;--surface:#fff;--ink:#0D1020;--mute:#3A3F63;--line:#D6DAEE;--veu:#5446F0;--mint:#35E0C2;--noite:#0D1020;--nevoa:#EEF0FA;--bruma:#A3A9C4;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0D1020;--surface:#141833;--ink:#EEF0FA;--mute:#A3A9C4;--line:#262B4D}}
+:root[data-theme="dark"]{--bg:#0D1020;--surface:#141833;--ink:#EEF0FA;--mute:#A3A9C4;--line:#262B4D}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--ink);font:400 18px/1.6 Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;padding-bottom:96px}
+.w{max-width:1040px;margin:0 auto;padding:0 22px}
+h1,h2,h3{font-family:Sora,Poppins,system-ui,sans-serif;font-weight:600;letter-spacing:-.035em;line-height:1.1}
+h2{font-size:clamp(28px,5vw,42px);margin-bottom:14px}
+.mono{font-family:"JetBrains Mono",ui-monospace,monospace;font-size:13px;letter-spacing:.16em;text-transform:uppercase}
+.dark{background:var(--noite);color:var(--nevoa)}
+.bar{background:var(--veu);color:#fff;text-align:center;font-size:15px;font-weight:500;padding:10px 16px}
+.bar b{font-family:"JetBrains Mono",monospace;font-weight:400;background:rgba(13,16,32,.35);padding:2px 8px;border-radius:6px;margin-left:6px}
+.logo{display:flex;align-items:center;gap:12px;padding:22px 0;font:600 24px Sora,sans-serif;letter-spacing:-.03em}
+.wm{font-weight:600}.wm span{font-weight:300;color:var(--mint)}
+.hero{padding-bottom:56px;position:relative;overflow:hidden}
+.hero .g{display:grid;gap:36px;grid-template-columns:1.15fr .85fr;align-items:center;padding-top:28px}
+.hero h1{font-size:clamp(38px,6.6vw,68px);color:var(--nevoa)}
+.hero h1 em{font-style:normal;color:var(--mint)}
+.hero p.s{color:var(--bruma);font-size:20px;margin:18px 0 22px;max-width:30em}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+.chips i{font-style:normal;font-size:15px;border:1px solid #3A3F63;border-radius:99px;padding:5px 14px;color:var(--nevoa)}
+.cover{width:100%;max-width:300px;border-radius:12px;box-shadow:0 30px 80px rgba(84,70,240,.45);transform:rotate(2deg);justify-self:center}
+.offer{border:1px solid #3A3F63;border-radius:22px;padding:22px;background:rgba(255,255,255,.03);max-width:460px}
+.price{display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+.price strong{font:600 56px Sora,sans-serif;letter-spacing:-.04em;color:var(--mint);line-height:1}
+.price small{color:var(--bruma);font-size:15px}
+.tag{display:inline-block;background:var(--mint);color:var(--noite);font:400 12px "JetBrains Mono",monospace;letter-spacing:.14em;border-radius:6px;padding:3px 10px;margin-bottom:12px}
+.cta{display:flex;align-items:center;justify-content:center;text-align:center;background:var(--mint);color:var(--noite);font:600 19px Inter,sans-serif;border-radius:16px;padding:18px 24px;text-decoration:none;margin-top:16px;transition:transform .15s,background .15s}
+.cta:hover{transform:translateY(-2px);background:#5CF0D6}
+.inc{border:1px solid #3A3F63;border-radius:22px;padding:26px;background:rgba(255,255,255,.03);width:100%;max-width:400px;justify-self:center}.inc h3{font-size:22px;color:var(--nevoa);margin-bottom:16px}.inc ul{list-style:none;padding:0;display:grid;gap:14px;color:var(--nevoa);font-size:16px}.inc li:before{content:"✓ ";color:var(--mint);font-weight:600}
+.trust{display:flex;flex-wrap:wrap;gap:6px 16px;margin-top:14px;font-size:14px;color:var(--bruma)}
+.cd{font-family:"JetBrains Mono",monospace;font-size:15px;color:var(--nevoa);margin-top:14px}
+section{padding:64px 0}
+.lead{color:var(--mute);max-width:36em}
+.dark .lead{color:var(--bruma)}
+.pain{display:grid;gap:14px;margin-top:26px}
+.pain div{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.blocks{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:14px;margin-top:28px}
+.blk{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.blk h3{font-size:21px;margin:6px 0 6px}.blk p{font-size:16px;color:var(--mute)}
+.blk .mono{color:var(--veu)}
+.sample{background:var(--noite);color:var(--nevoa);border-radius:20px;padding:26px;margin-top:26px}
+.sample .meta{color:var(--bruma);font-size:15px;margin:6px 0 16px}
+.sample pre{white-space:pre-wrap;font:400 15px/1.65 "JetBrains Mono",monospace;background:#141833;border:1px solid #262B4D;border-radius:14px;padding:18px;color:#DDE0F5}
+.steps{display:grid;gap:14px;margin-top:26px;counter-reset:s}
+.steps div{counter-increment:s;background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:20px 20px 20px 70px;position:relative}
+.steps div:before{content:counter(s);position:absolute;left:20px;top:18px;width:36px;height:36px;border-radius:50%;background:var(--veu);color:#fff;font:600 17px Sora;display:grid;place-items:center}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:26px}
+.two>div{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.two h3{font-size:20px;margin-bottom:10px}.two ul{list-style:none;padding:0;display:grid;gap:8px;font-size:16px}
+.two li:before{content:"✓ ";color:var(--veu);font-weight:600}.two .no li:before{content:"– ";color:var(--mute)}
+.final{text-align:center}.final .offer{margin:26px auto 0;text-align:left}
+.final h2{color:var(--nevoa)}
+.guar{display:flex;gap:18px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:24px}
+.guar b{font:600 40px Sora;color:var(--veu);line-height:1}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-top:10px}
+summary{cursor:pointer;font-weight:600;font-size:17px}
+details p{margin-top:10px;font-size:16px;color:var(--mute)}
+footer{padding:36px 0 120px;text-align:center;color:var(--bruma);font-size:15px}
+footer a{color:var(--mint);text-decoration:none}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(13,16,32,.96);border-top:1px solid #262B4D;padding:12px 18px calc(12px + env(safe-area-inset-bottom,0px));display:flex;gap:14px;align-items:center;justify-content:center}
+.sticky .p{color:var(--nevoa);font-size:14px;line-height:1.25}.sticky .p b{display:block;font:600 22px Sora;color:var(--mint)}
+.sticky .cta{margin:0;padding:14px 22px;font-size:17px}
+@media(max-width:760px){.hero .g,.two{grid-template-columns:1fr}body{font-size:17px}.guar{flex-direction:column;align-items:flex-start}}
+</style></head><body>
+<div class="bar">Black Friday Velar Web · termina em <b data-cd>--</b></div>
+
+<header class="hero dark"><div class="w">
+<div class="logo"><svg viewBox="0 0 471 435" width="40"><polygon points="0,0 145,0 308,435 163,435" fill="#5446F0"/><polygon points="326,0 471,0 308,435 163,435" fill="#7B6DFF"/><polygon points="235,242 163,435 308,435" fill="#35E0C2"/></svg><b class="wm">velar<span>web</span></b></div>
+<div class="g">
+<div>
+<p class="mono" style="color:var(--mint);margin-bottom:14px">Biblioteca de prompts · Volume 1</p>
+<h1>30 prompts para criar <em>vídeos curtos</em> com IA.</h1>
+<p class="s">Roteiros prontos para TikTok, Reels e Shorts. É só copiar, preencher e usar.</p>
+<div class="chips"><i>Ganchos</i><i>Storytelling</i><i>Educação</i><i>Vendas</i><i>Sem aparecer</i></div>
+<div class="offer">
+<span class="tag">BLACK FRIDAY</span>
+<div class="price"><strong>R$ 9,99</strong><small>pagamento único · PDF com acesso imediato por e-mail</small></div>
+<a class="cta" data-buy href="#">Quero os 30 prompts por R$ 9,99</a>
+<div class="cd">Oferta termina em <b data-cd>--</b></div>
+<div class="trust"><span>✓ Garantia de 7 dias</span><span>✓ Pagamento seguro</span><span>✓ Entrega por e-mail</span></div>
+</div></div>
+<div class="inc"><h3>O que você recebe</h3><ul><li>PDF com 40 páginas</li><li>30 prompts prontos para copiar</li><li>6 blocos: ganchos, roteiros, storytelling, educação, vendas e vídeos sem aparecer</li><li>Ficha do Canal, para manter o tom em todos os vídeos</li><li>Orientações finais de uso</li></ul></div>
+</div></div></header>
+
+<section><div class="w">
+<h2>Você já sentou para gravar e travou na primeira frase?</h2>
+<p class="lead">Quem faz vídeo curto esbarra quase sempre nos mesmos pontos. Os prompts desta biblioteca foram escritos para resolver cada um deles.</p>
+<div class="pain"><div>Não sabe como abrir o vídeo nos primeiros 3 segundos, que decidem se a pessoa continua assistindo.</div><div>Perde horas escrevendo roteiro do zero para cada vídeo.</div><div>Não quer ou não pode aparecer e não sabe que formatos funcionam sem rosto.</div></div>
+</div></section>
+
+<section style="padding-top:0"><div class="w">
+<h2>O que vem dentro</h2>
+<p class="lead">30 prompts completos, em 6 blocos. Cada um traz finalidade, nível, instruções, o prompt pronto para copiar, os campos para personalizar e um exemplo de aplicação.</p>
+<div class="blocks">
+<div class="blk"><span class="mono">Bloco A · 5 prompts</span><h3>Ganchos</h3><p>Curiosidade, erro comum, mito quebrado, resultado com prazo e o gancho triplo (fala, texto e ação).</p></div>
+<div class="blk"><span class="mono">Bloco B · 5 prompts</span><h3>Roteiros por formato</h3><p>15, 30 e 60 segundos com re-ganchos, roteiro de lista e fatiador de conteúdo longo.</p></div>
+<div class="blk"><span class="mono">Bloco C · 5 prompts</span><h3>Storytelling</h3><p>Antes–depois–ponte, erro e aprendizado, case de cliente, micro-conto e série em 3 episódios.</p></div>
+<div class="blk"><span class="mono">Bloco D · 5 prompts</span><h3>Educação</h3><p>Analogia didática, passo a passo, mito vs. verdade, comparativo e mini-aula salvável.</p></div>
+<div class="blk"><span class="mono">Bloco E · 5 prompts</span><h3>Vendas</h3><p>Venda direta, promoção com urgência honesta, quebra de objeção, prova social e teaser de lançamento.</p></div>
+<div class="blk"><span class="mono">Bloco F · 5 prompts</span><h3>Vídeos sem aparecer</h3><p>Voz em off, texto na tela, tutorial em gravação de tela, slideshow e vídeo de mãos e produto.</p></div>
+</div></div></section>
+
+<section style="background:var(--surface)"><div class="w">
+<h2>Veja um prompt por dentro</h2>
+<p class="lead">Este é o prompt 01 do PDF, do jeito que você recebe. Você cola em um assistente de IA, troca o que está entre colchetes e recebe 10 ganchos.</p>
+<div class="sample"><div class="mono" style="color:var(--mint)">Prompt 01 · Gancho de curiosidade aberta</div><div class="meta">Nível iniciante · assistente de texto com IA</div>
+<pre>Atue como roteirista especialista em vídeos curtos verticais.
+Crie 10 ganchos de curiosidade aberta (máx. 12 palavras cada) para um vídeo sobre [TEMA], voltado a [PÚBLICO], na plataforma [TIKTOK/REELS/SHORTS].
+
+Regras:
+- Cada gancho deve criar uma pergunta na cabeça do espectador sem revelar a resposta.
+- Nada de exageros falsos nem promessas que o vídeo não possa cumprir.
+- Varie a estrutura: pergunta, afirmação estranha, número específico, confissão.
+- Tom de voz: [TOM].</pre></div>
+</div></section>
+
+<section><div class="w">
+<h2>Como usar, em 3 passos</h2>
+<div class="steps"><div><b>Receba o PDF por e-mail.</b><br>Logo após a confirmação do pagamento, o acesso chega na sua caixa de entrada.</div><div><b>Cole o prompt no seu assistente de IA.</b><br>Funciona com assistentes de texto como Claude, ChatGPT e Gemini.</div><div><b>Preencha os campos e grave.</b><br>Troque o que está entre [colchetes], revise o roteiro e publique.</div></div>
+<div class="two"><div><h3>É para você se…</h3><ul><li>cria conteúdo para TikTok, Reels ou Shorts</li><li>tem uma loja ou negócio e quer divulgar em vídeo</li><li>é social media e quer ganhar tempo nos roteiros</li><li>prefere não aparecer na câmera</li></ul></div>
+<div class="no"><h3>Não é para você se…</h3><ul><li>espera resultado ou viralização garantidos</li><li>quer que a IA gere o vídeo pronto: estes prompts geram o roteiro</li><li>não pretende revisar o texto antes de publicar</li></ul></div></div>
+</div></section>
+
+<section class="dark final"><div class="w">
+<p class="mono" style="color:var(--mint)">Black Friday · até 23/11 às 23h59</p>
+<h2 style="margin-top:10px">30 prompts por menos de R$ 10.</h2>
+<p class="lead" style="margin:0 auto">PDF com 40 páginas, 30 prompts prontos para copiar, a Ficha do Canal para manter o tom em todos os vídeos e orientações finais de uso.</p>
+<div class="offer"><span class="tag">BLACK FRIDAY</span>
+<div class="price"><strong>R$ 9,99</strong><small>pagamento único</small></div>
+<a class="cta" data-buy href="#">Quero meu acesso agora</a>
+<div class="cd">Termina em <b data-cd>--</b></div>
+<div class="trust"><span>✓ Garantia de 7 dias</span><span>✓ Acesso imediato por e-mail</span></div></div>
+</div></section>
+
+<section><div class="w">
+<div class="guar"><b>7 dias</b><div><h3 style="font-size:22px;margin-bottom:6px">Garantia de devolução</h3><p style="font-size:16px;color:var(--mute)">Se você comprar e não gostar, peça o reembolso em até 7 dias e devolvemos o valor pago.</p></div></div>
+<h2 style="margin-top:56px">Perguntas frequentes</h2>
+<details><summary>Os prompts geram o vídeo pronto?</summary><p>Não. Eles geram roteiros, ganchos e estruturas em texto. Você grava, narra ou edita o vídeo com as ferramentas que preferir.</p></details>
+<details><summary>Como recebo o material?</summary><p>Por e-mail, logo depois da confirmação do pagamento. O material é um PDF.</p></details>
+<details><summary>Preciso de alguma ferramenta paga?</summary><p>Você precisa de um assistente de IA de texto, como Claude, ChatGPT ou Gemini. Os resultados variam conforme o modelo e a versão que você usa.</p></details>
+<details><summary>Os resultados são garantidos?</summary><p>Não. Os prompts ajudam você a criar roteiros melhores e mais rápido, mas o desempenho dos vídeos depende do seu conteúdo, do seu público e das plataformas.</p></details>
+<details><summary>Até quando vale o preço de Black Friday?</summary><p>Até 23/11 às 23h59 (horário de Brasília). Depois disso, a oferta é encerrada.</p></details>
+</div></section>
+
+<footer class="dark"><div class="w"><div class="logo" style="justify-content:center"><svg viewBox="0 0 471 435" width="34"><polygon points="0,0 145,0 308,435 163,435" fill="#5446F0"/><polygon points="326,0 471,0 308,435 163,435" fill="#7B6DFF"/><polygon points="235,242 163,435 308,435" fill="#35E0C2"/></svg><b class="wm">velar<span>web</span></b></div>
+Sites que cuidam do seu negócio.<br>Dúvidas? Chame no direct: <a href="https://instagram.com/velar_web" target="_blank" rel="noopener">@velar_web</a></div></footer>
+
+<div class="sticky"><div class="p">Black Friday<b>R$ 9,99</b></div><a class="cta" data-buy href="#">Quero os 30 prompts</a></div>
+
+<script>
+var CHECKOUT_URL="https://pay.cakto.com.br/sunn3g4_1344122";
+var END=new Date("2026-11-23T23:59:59-03:00").getTime();
+document.querySelectorAll("[data-buy]").forEach(function(a){if(CHECKOUT_URL)a.href=CHECKOUT_URL});
+function tick(){var d=END-Date.now(),els=document.querySelectorAll("[data-cd]");
+if(d<=0){els.forEach(function(e){e.textContent="encerrada"});return}
+var s=Math.floor(d/1e3),D=Math.floor(s/86400),H=Math.floor(s%86400/3600),M=Math.floor(s%3600/60),S=s%60,p=function(n){return String(n).padStart(2,"0")};
+els.forEach(function(e){e.textContent=D+"d "+p(H)+"h "+p(M)+"m "+p(S)+"s"})}
+tick();setInterval(tick,1000);
+</script></body></html>
